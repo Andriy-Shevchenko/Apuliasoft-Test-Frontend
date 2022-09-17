@@ -1,0 +1,15 @@
+@import "assets/scss/index";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
